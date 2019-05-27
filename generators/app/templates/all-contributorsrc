@@ -8,7 +8,7 @@
   "commit": false,
   "contributors": [
     {
-      "login": "<%= authorID>",
+      "login": "<%= authorID %>",
       "name": "<%= authorName %>",
       "avatar_url": "https://avatars.githubusercontent.com/u/1500684?v=3",
       "profile": "https://www.3alves.com",
