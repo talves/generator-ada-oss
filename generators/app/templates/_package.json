@@ -1,0 +1,47 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0-semantically-released",
+  "description": "<%= description %>",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "build": "ada-scripts build",
+    "lint": "ada-scripts lint",
+    "test": "ada-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "ada-scripts validate",
+    "setup": "npm install && npm run validate -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Tony Alves <tony@3alves.com> (http://www.3alves.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.4.4"
+  },
+  "devDependencies": {
+    "ada-scripts": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "ada-scripts pre-commit"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/ada-scripts/eslint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= orgName %>/<%= moduleName %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= orgName %>/<%= moduleName %>/issues"
+  },
+  "homepage": "https://github.com/<%= orgName %>/<%= moduleName %>#readme"
+}

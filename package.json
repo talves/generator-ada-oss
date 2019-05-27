@@ -1,0 +1,49 @@
+{
+  "name": "generator-ada-oss",
+  "version": "0.0.0-semantically-released",
+  "description": "A generator for my projects.",
+  "scripts": {
+    "lint": "ada-scripts lint",
+    "validate": "ada-scripts validate"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "ada-scripts pre-commit"
+    }
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "open source",
+    "talves",
+    "yeoman-generator"
+  ],
+  "author": "Tony Alves <tony@3alves.com> (http://www.3alves.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "npm-check": "^5.5.2",
+    "yeoman-generator": "^4.0.0"
+  },
+  "devDependencies": {
+    "ada-scripts": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/ada-scripts/eslint.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talves/generator-ada-oss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/talves/generator-ada-oss/issues"
+  },
+  "homepage": "https://github.com/talves/generator-ada-oss#readme"
+}

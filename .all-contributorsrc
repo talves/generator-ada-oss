@@ -1,0 +1,21 @@
+{
+  "projectName": "generator-ada-oss",
+  "projectOwner": "talves",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "talves",
+      "name": "Tony Alves",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/784848?s=460&v=4",
+      "profile": "https://www.3alves.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "repoType": "github"
+}
