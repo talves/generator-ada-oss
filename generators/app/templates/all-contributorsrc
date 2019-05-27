@@ -1,6 +1,6 @@
 {
   "projectName": "<%= moduleName %>",
-  "projectOwner": "<%= authorName %>",
+  "projectOwner": "<%= authorID %>",
   "files": [
     "README.md"
   ],
@@ -8,8 +8,8 @@
   "commit": false,
   "contributors": [
     {
-      "login": "<%= authorName %>",
-      "name": "Tony Alves",
+      "login": "<%= authorID>",
+      "name": "<%= authorName %>",
       "avatar_url": "https://avatars.githubusercontent.com/u/1500684?v=3",
       "profile": "https://www.3alves.com",
       "contributions": [

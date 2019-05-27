@@ -20,7 +20,7 @@
     "dist"
   ],
   "keywords": [],
-  "author": "Tony Alves <tony@3alves.com> (http://www.3alves.com/)",
+  "author": "<%= authorName %> <tony@3alves.com> (http://www.3alves.com/)",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.4"

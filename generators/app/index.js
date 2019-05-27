@@ -5,9 +5,14 @@ module.exports = class extends Generator {
   init() {
     return this.prompt([
       {
-        name: 'authorName',
+        name: 'authorID',
         message: 'What is the git author/owner?',
         default: 'talves'
+      },
+      {
+        name: 'authorName',
+        message: 'What is the author Full Name?',
+        default: 'Tony Alves'
       },
       {
         name: 'orgName',

@@ -71,7 +71,7 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://www.3alves.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorName %>" title="Code">💻</a> <a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorName %>" title="Documentation">📖</a> <a href="#infra-<%= authorName %>" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorName %>" title="Tests">⚠️</a></td></tr></table>
+<table><tr><td align="center"><a href="https://www.3alves.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="<%= authorName %>"/><br /><sub><b><%= authorName %></b></sub></a><br /><a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorID %>" title="Code">💻</a> <a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorID %>" title="Documentation">📖</a> <a href="#infra-<%= authorID %>" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/<%= orgName %>/<%= moduleName %>/commits?author=<%= authorID %>" title="Tests">⚠️</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
