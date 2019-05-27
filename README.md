@@ -67,7 +67,7 @@ Follow the prompts...
 
 ## Inspiration
 
-I referenced [@sindresorhus][sindresorhus]'s [module][generator-nm] heavily.
+I referenced (copied) [@kentcdodds][kent]'s [module][kentgen] heavily.
 
 ## Contributors
 
@@ -87,7 +87,8 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
-[sindresorhus]: https://github.com/sindresorhus
+[kent]: https://github.com/kentcdodds
+[kentgen]: https://github.com/kentcdodds/generator-kcd-oss
 [generator-nm]: https://github.com/sindresorhus/generator-nm
 [build-badge]: https://img.shields.io/travis/talves/generator-ada-oss.svg?style=flat-square
 [build]: https://travis-ci.org/talves/generator-ada-oss
