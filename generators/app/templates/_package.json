@@ -2,7 +2,9 @@
   "name": "<%= moduleName %>",
   "version": "0.0.0-semantically-released",
   "description": "<%= description %>",
-  "main": "dist/index.js",
+  "main": "dist/<%= moduleName %>.js",
+  "jsnext:main": "dist/<%= moduleName %>.esm.js",
+  "module": "dist/<%= moduleName %>.esm.js",
   "engines": {
     "node": ">=10",
     "npm": ">=6",
