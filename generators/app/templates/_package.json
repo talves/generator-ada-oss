@@ -16,7 +16,8 @@
     "test": "ada-scripts test",
     "test:update": "npm test -- --updateSnapshot --coverage",
     "validate": "ada-scripts validate",
-    "setup": "npm install && npm run validate -s"
+    "setup": "npm install && npm run validate -s",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "dist"
