@@ -7,17 +7,17 @@ module.exports = class extends Generator {
       {
         name: 'authorID',
         message: 'What is the git author/owner?',
-        default: 'talves'
+        default: 'talves',
       },
       {
         name: 'authorName',
         message: 'What is the author Full Name?',
-        default: 'Tony Alves'
+        default: 'Tony Alves',
       },
       {
         name: 'orgName',
         message: 'What orginization/profile?',
-        default: 'talves'
+        default: 'talves',
       },
       {
         name: 'moduleName',
@@ -57,6 +57,7 @@ module.exports = class extends Generator {
       mv('prettierrc', '.prettierrc')
       mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
       mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md')
+      mv('github/workflows/push.yml', '.github/workflows/push.yml')
     })
   }
   install() {
