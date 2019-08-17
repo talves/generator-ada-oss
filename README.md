@@ -21,7 +21,8 @@
 
 <hr />
 
-[![Build Status][build-badge]][build]
+<!-- [![Build Status][build-badge]][build] -->
+
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][license]

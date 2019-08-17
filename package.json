@@ -27,7 +27,7 @@
     "yeoman-generator": "^4.0.0"
   },
   "devDependencies": {
-    "ada-scripts": "^2.0.0"
+    "ada-scripts": "^2.0.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/ada-scripts/eslint.js"

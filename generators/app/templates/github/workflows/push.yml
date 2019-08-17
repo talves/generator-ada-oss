@@ -1,0 +1,29 @@
+on: push
+name: Validate, Build, and Publish
+jobs:
+  buildTestPublish:
+    name: buildTestPublish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: YarnInstall
+        uses: talves/actions-yarn@master
+        with:
+          args: install
+      - name: Validate
+        uses: talves/actions-yarn@master
+        with:
+          args: validate
+      - name: Build
+        uses: talves/actions-yarn@master
+        with:
+          args: build
+      - name: SemanticRelease
+        if: github.event.ref == 'refs/heads/master'
+        uses: talves/actions-yarn@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        with:
+          args: semantic-release
