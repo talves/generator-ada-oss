@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "ada-scripts": "^2.0.1",
-    "semantic-release": "^15.13.21"
+    "semantic-release": "^17.2.3"
   },
   "eslintConfig": {
     "extends": "./node_modules/ada-scripts/eslint.js"
